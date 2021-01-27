@@ -1,1 +1,10 @@
-<div><h3>Here a header</h3></div>
+<div>
+    <h3>{{nombre}}</h3>
+    <button (click)="sumar()">Sumar +1</button>
+    <ul>
+        <li *ngFor="let item of arr">
+            <p></p>{{item}}
+        </li>
+    </ul>
+    
+</div>

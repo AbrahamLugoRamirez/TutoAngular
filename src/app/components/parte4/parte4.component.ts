@@ -12,5 +12,6 @@ export class Parte4Component implements OnInit {
   ngOnInit(): void {
   }
   desactivado = false;
+  nombre:string = ""
 
 }

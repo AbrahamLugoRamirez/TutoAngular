@@ -19,4 +19,16 @@ export class HeaderComponent implements OnInit {
   sumar(){
     this.arr.push(this.arr.length)
   }
+  user: boolean = true;
+  parte4: boolean = false;
+  page1(){
+    this.user = true;
+    this.parte4 = false;
+
+  }
+  page2(){
+    this.user = false;
+    this.parte4 = true;
+
+  }
 }
